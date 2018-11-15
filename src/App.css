@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+  }
+  
+   .app {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    align-items: center;
+  }
+
+  /* Header styles */
+
+    .left {
+      display: flex;
+      justify-content: flex-start;
+      width: 70%;
+    }
+
+    .right {
+      display: flex;
+      justify-content: flex-end;
+      width: 30%;
+    }
+
+    header {
+        display: flex;
+        padding: 30px;
+        font-family: 'Lato', sans-serif;
+        background: url("./Assets/cryptoBackground.jpg");
+        background-repeat: no-repeat;
+        opacity: 0.8;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        width: 100%;
+    }
+
+    /* content styles */
+
+    .content {
+      width: 100%;
+      padding: 0 30px;
+    }
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      font-weight: bold;
+      padding: 5px 0;
+      border-bottom: 1px solid grey;
+    }
+
+    .coinInfo {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      border-bottom: 1px solid grey;
+      padding: 10px 0;
+    }
+
+    .detail {
+      text-align: center;
+      width: 25%;
+    }
+
+    input {
+      border: none;
+      text-align: center;
+      font-size: 15px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    .green {
+      color: green;
+    }
+
+    .red {
+      color: red;
+    }
